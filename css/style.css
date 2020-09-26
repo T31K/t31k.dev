@@ -449,6 +449,7 @@ ol {
   transition: all 0.4s ease 0s;
 }
 
+
 .portfolio-item .pi-inner h2 {
   opacity: 0;
   font-size: 30px;
@@ -466,6 +467,7 @@ ol {
 .portfolio-item:hover .pi-inner {
   background: rgba(0, 20, 24, 0.8);
 }
+
 
 .portfolio-item:hover .pi-inner h2 {
   opacity: 1;
@@ -830,7 +832,7 @@ ol {
   border-radius: 10px;
   transform: scaleX(0);
   transform-origin: left;
-  background: #6665ee;
+  background: #3282b8;
   animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
 }
 .bar .progress-line.html span{
@@ -959,4 +961,79 @@ blockquote {
 .blockquotetext{
   text-align: center;
   padding-top: 50px;
+}
+
+
+@keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-webkit-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-moz-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-o-keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+.bar{
+  background-color: none;
+  padding: 2px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #FFF;
+  font-weight: 200;
+}
+.bar::before{
+  content:  attr(data-skill);
+  background-color: #f3b0ff;
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
+}
+
+.bar.front::before{
+  background-color: #3282b8;
+}
+.bar.back::before{
+  background-color: #0f4c75;
+}
+
+.bar.learning::before{
+  width: calc(20% - 10px);
+}
+.bar.basic::before{
+  width: calc(40% - 10px);
+}
+.bar.intermediate::before{
+  width: calc(60% - 10px);
+}
+.bar.advanced::before{
+  width: calc(80% - 10px);
+}
+.bar.expert::before{
+  width: calc(100% - 10px);
+}
+
+.view-btn{
+  margin: 0 auto !important;
+  align-content: center !important;
+  width: 50%;
+  height: 50%;
+  background: black !important;
+  border: none !important;
 }
