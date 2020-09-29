@@ -57,3 +57,12 @@ h6{
   .bar.expert::before{
     width: calc(100% - 10px);
   }
+
+  .text-dark {
+    color: #222 !important;
+  }
+
+  .text-italic{
+    font-style: italic;
+    font-size: 3.8rem !important;
+  }
