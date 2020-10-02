@@ -71,6 +71,28 @@ h6{
     font-size: 4.3rem !important;
   }
 
- .icon{
-   color: blue !important;
- }
+.fab {
+  color: #0f4c75 !important;
+  font-size: 1.5em !important;
+}
+
+.fas {
+  color: #0f4c75 !important;
+  font-size: 1.5em !important;
+}
+
+.text-custom{
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.title{
+  font-size: 2.0rem !important;
+
+}
+
+.image{
+  width: 40vw;
+  border: 5px solid black;
+}
