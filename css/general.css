@@ -7,6 +7,7 @@ http://www.andreagalanti.it
 */
 
 /*General */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;350;400;600&display=swap');
 
 body, html {
 	height: 100%;
@@ -74,8 +75,8 @@ margin: auto;
 
 .h1_home{
 	font-size: 80px;
-	font-family: arvo;
-	font-weight: 300;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 350;
 	letter-spacing: 6px;
 }
 
