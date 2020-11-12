@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+.work-wrapper-l {
+    background-color: #fff;
+    border-radius: 15px 0 0 15px;
+    padding: 25px 45px;
+    box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
+    font-family: 'Playfair Display', serif;
+}
+
+.work-wrapper-r {
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 0 15px 15px 0;
+    box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
+    padding: 25px 45px;
+}
+
+.p-none{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+p.work-wrap-text {
+    margin-top: 10px;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.78;
+    letter-spacing: .44px;
+    color: #7c82a2;
+}
+
+
+/* ============= IMAGE ============= */
+img.work-img  {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    max-width: 199px;
+    max-height: 500px;
+    height: 300px;
+}
+
+
+.work-image {
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 0 12px 12px 0;
+}
+
+
+
+/* ============== FONTS ================ */
+h3.title {
+    font-family: Playfair Display,serif;
+    font-weight: 700;
+    line-height: 1.33;
+    letter-spacing: .8px;
+    color: #1b2025;
+    font-size: 40px;
+    letter-spacing: 1.25px;
+    text-align: left;
+}
+
+
+.work-description p {
+    margin-top: 20px;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.78;
+    letter-spacing: .44px;
+    color: #7c82a2;
+}
+
+/* =============== BUTTONS =============== */
+.btn.btn-talk, .btn.btn-work {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    height: 50px;
+    padding: 16px 32px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 1.54px;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+.btn.btn-work {
+    text-align: center;
+    color: #fff;
+}
+
+.btn {
+    border: 0 !important;
+    outline: none !important;
+}
+.work-description .btn {
+    width: 100%;
+    max-width: 250px;
+    margin-top: 40px;
+}
+
+.btn-work,  .btn-work:not(:disabled):not(.disabled).active, .btn-work:not(:disabled):not(.disabled):active {
+    background-image: linear-gradient(135deg,#72e9f3 -20%,#404de6 120%);
+    box-shadow: 0 11px 36px 0 rgba(70,89,138,.25);
+}
+.btn-work, .btn-work:not(:disabled):not(.disabled).active, .btn-work:not(:disabled):not(.disabled):active {
+    background-image: linear-gradient(135deg,#72e9f3 -20%,#404de6 120%);
+    box-shadow: 0 11px 36px 0 rgba(70,89,138,.25);
+
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+
+
+/* ================ RESPONSIVE VIEWPORT ================== */
+@media (max-width: 1200px) {
+    img.work-img{
+        height: 276px;
+    }
+}
+
+@media (max-width: 991px) {
+    .work-wrapper-l {
+        background-color: #fff;
+        border-radius: 15px 15px 0 0;
+        padding: 25px 45px;
+        box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+    }
+    
+    .work-wrapper-r {
+        background: #ee9ca7;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border-radius: 0 0 15px 15px;
+        box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
+        padding: 25px 45px;
+    }
+
+    h3.title {
+        font-family: Playfair Display,serif;
+        font-weight: 700;
+        line-height: 1.33;
+        letter-spacing: .8px;
+        color: #1b2025;
+        font-size: 40px;
+        letter-spacing: 1.25px;
+        text-align: center;
+    }
+
+    img.work-img  {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        max-width: 201px;
+        height: 260px;
+    }
+
+    .btn.btn-talk, .btn.btn-work{
+        margin-top: 30px !important;
+    }
+}
+

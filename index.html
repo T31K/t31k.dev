@@ -19,9 +19,10 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-	
+	<link href="css/font.css" rel="stylesheet" >
     <!-- Custom CSS-->
     <link href="css/general.css" rel="stylesheet">
+	<link href="css/cards.css" rel="stylesheet">
 	
 	<!-- Owl-Carousel -->
     <link href="css/custom.css" rel="stylesheet">
@@ -63,14 +64,14 @@
 	<!-- FullScreen -->
     <div class="intro-header">
 		<div class="col-xs-12 text-center abcen1">
-			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Tim Wong</h1>
+			<h1 class="custom-subtitle-font wow fadeIn" data-wow-delay="0.4s">Tim Wong</h1>
 			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Software Developer</h3>
 			
 		</div>    
         <!-- /.container -->
 		<div class="col-xs-12 text-center abcen wow">
 			<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#about"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
-			<h3 class="wow bounceIn" data-wow-duration="1.5s">get to know me!</h3>
+			<h3 class="h3_home wow bounceIn" data-wow-duration="1.5s">get to know me!</h3>
 			<div class="button_down "> 
 			</div>
 		</div>
@@ -87,7 +88,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#home">T31K.</a>
+				<a class="navbar-brand custom-font" href="#home">T31K.</a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
@@ -104,13 +105,14 @@
 
 	
 	<!-- What is -->
-	<div id="about" class="content-section-b" style="border-top: 0">
+	<section id="about">
+	<div class="content-section-b">
 		<div class="container">
-
 			<div class="row">
 				<div class="col-md-12  text-center wrap_title">
-					<h2>ABOUT ME</h2>
-					<p class="lead" >ex flight crew | present day dev</p>
+					<h2 class="custom-title-font">About Me</h2>
+					<h4 class="custom-subtitle-font" >ex flight crew | present day dev</h4>
+					<span class="underline">__________________</span>
 				</div>
 			</div>
 
@@ -123,357 +125,115 @@
 					</div>
 				</div>
 			</div>
-
-
-			<h3 class="sub-title text-center">MY TECH STACK</h3><br>
-			<div class="row text-center">
-
-				<div class="col-sm-4  wow fadeInDown">
-					<img class="rotate small" src="img/icon/frontend.svg" alt="Generic placeholder image">
-					<h3>Frontend</h3>
-						<div class="text-center">
-							<h4>HTML</h4>
-							<h4>CSS</h4>
-							<h4>JavaScript</h4>
-							<h4>ReactJS</h4>
-							<h4>VueJS</h4>
-							<h4>Bootstrap</h4>
-						</div>				
-				</div>
-
-				<div class="col-sm-4  wow fadeInDown">
-					<img class="rotate small" src="img/icon/backend.svg" alt="Generic placeholder image">
-					<h3>Backend</h3>
-						<div class="text-center">
-							<h4>NodeJS</h4>
-							<h4>ExpressJS</h4>
-							<h4>Flask</h4>
-							<h4>MongoDB</h4>
-							<h4>SQL</h4>
-						</div>				
-				</div>
-
-				<div class="col-sm-4  wow fadeInDown">
-					<img class="rotate small" src="img/icon/tools.svg" alt="Generic placeholder image">
-					<h3>Tools</h3>
-						<div class="text-center">
-							<h4>Adobe Photoshop</h4>
-							<h4>Adobe Illustrator</h4>
-						</div>				
-				</div>
-		</div>
-	</div>
-
-	<!-- WORK -->
-    <div id ="work" class="content-section-a">
-		<h2 class="text-center">MY WORK</h2>
-        <div class="container">
-		<div class="content-section-a">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-6 pull-right wow fadeInRightBig">
-						<img class="img-responsive " src="img/busApp.png" alt="">
-					</div>
-
-					<div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
-						<h3 class="section-heading">busApp</h3>
-						<p class="lead">ReactJS app to show real-time bus ETA using LTA Singapore API</p>
-
-						<ul class="descp lead2">
-							<li><i class="glyphicon glyphicon-question-sign"></i> Love to take the public transport but hate to wait ? </li>
-							<li><i class="glyphicon glyphicon-euro"></i> Don't wanna be chained to expensive ride hailing fee ?</li>
-							<li><i class="glyphicon glyphicon-star"></i> Bus timings like of those in MRT stations!</li>
-						</ul>
-
-						<p><a class="btn btn-embossed btn-primary" href="work#busapp" role="button">View Details</a> 
-						<a class="btn btn-embossed btn-info" href="https://thebusetaapp.herokuapp.com" role="button" target="_blank">Live Demo</a></p>
-					</div>           
-				</div>
 			</div>
 		</div>
-    </div>
+		</section>
 
-	<div id ="work" class="content-section-b">
-        <div class="container">
-		<div class="content-section-a">
-			<div class="container">	
+			<section id="techstack">
+				<div class="container mt-5">
+						
 					<div class="row">
-					<div class="col-sm-6 pull-left wow fadeInLeftBig">
-						<img class="img-responsive " src="img/bellboy.png" alt="">
+						<div class="col-md-12  text-center wrap_title">
+							<h2 class="custom-title-font">My Tech Stack</h2>
+							<p></p>
+							<span class="underline">________________________________</span>
+						</div>
 					</div>
 
-					<div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
-						<h3 class="section-heading">Bellboy</h3>
-						<p class="lead">Full Stack App for reviews and insider tricks of top hotels</p>
+					<div class="row">
+						<div class="col-md-4  text-center">
+							<img src="img/icon/frontend.svg" class="rotate icon-custom" alt="">
+								<img src="img/icon/languages/html5-sq.svg" class="smaller-icon-custom">
+								<img src="img/icon/languages/css3-sq.svg" class="smaller-icon-custom">
+								<img src="img/icon/languages/js-sq.svg" class="smaller-icon-custom">
+						</div>
+						<div class="col-md-4  text-center">
+							<img src="img/icon/backend.svg" class="rotate icon-custom" alt="">
+								<img src="img/icon/languages/node-sq.svg" class="smaller-icon-custom">
+								<img src="img/icon/languages/mysql-sq.svg" class="smaller-icon-custom">
+								<img src="img/icon/languages/python-sq.svg" class="smaller-icon-custom">
+						</div>
+						<div class="col-md-4  text-center">
+							<img src="img/icon/tools.svg" class="rotate icon-custom" alt="">
+								<img src="img/icon/languages/adobe-illustrator.svg" class="smaller-icon-custom">
+								<img src="img/icon/languages/adobe-photoshop-logo.svg" class="smaller-icon-custom">
+								<img src="img/icon/languages/bootstrap.svg" class="smaller-icon-custom">
+								<br>
+								<img src="img/icon/languages/git-logo.svg" class="smaller-icon-custom">
+								<img src="img/icon/languages/sass-sq.svg" class="smaller-icon-custom">
+						</div>
+					</div>
 
-						<!-- <ul class="descp lead2">
-							<li><i class="glyphicon glyphicon-question-sign"></i> Love to take the public transport but hate to wait ? </li>
-							<li><i class="glyphicon glyphicon-euro"></i> Don't wanna be chained to expensive ride hailing fee ?</li>
-							<li><i class="glyphicon glyphicon-star"></i> Bus timings like of those in MRT stations!</li>
-						</ul> -->
-
-						<p><a class="btn btn-embossed btn-pink" href="work#bellboy" role="button">View Details</a> 
-							<a class="btn btn-embossed btn-darkpink" href="https://bellboy.herokuapp.com" role="button" target="_blank">Live Demo</a></p>
-					</div>           
 				</div>
-			</div>
-		</div>
-	</div>
+			</section>
 
-	<div class="content-section-b mt-0 pt-0">
-        <div class="container">
-		<div class="content-section-a">
-			<div class="container">	
+			<section id="work">
+				<br><br>
+				<div class="container">
+					<div class="container">
+						<div class="text-center ">
+							<h2 class="custom-title-font ">My Work</h2>
+							<span class="text-center underline mb-5">__________________</span>
+						</div>
+						<br><br>
+
+					<div class="row">
+						<div class="col-md-1"></div>
+						<div class="col-md-5 p-none">
+							<div class="work-wrapper-l">
+									<h3 class="title">Revamp BetterSG</h3>
+									<p class="work-wrap-text">TechForGood Community</p>
+									<a href="https://better.sg" class="btn btn-work" target="_blank">In Progress</a>
+							</div>
+						</div>
+						<div class="col-md-5 p-none">
+							<div class="work-wrapper-r">
+								<img class="work-img"  src="img/icon/busApp.svg" alt="">
+							</div>
+						</div>
+						<div class="col-md-1"></div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-md-1"></div>
+						<div class="col-md-5 p-none">
+							<div class="work-wrapper-l">
+									<h3 class="title">busApp</h3>
+									<p class="work-wrap-text">App to show bus timings using Singapore LTA API</p>
+									<a href="work#busapp" class="btn btn-work" target="_blank">Learn More</a>
+							</div>
+						</div>
+						<div class="col-md-5 p-none">
+							<div class="work-wrapper-r">
+								<img class="work-img"  src="img/icon/busApp.svg" alt="">
+							</div>
+						</div>
+						<div class="col-md-1"></div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-md-1"></div>
+						<div class="col-md-5 p-none">
+							<div class="work-wrapper-l">
+									<h3 class="title">Bellboy</h3>
+									<p class="work-wrap-text">Full Stack Hotel Review App</p>
+									<a href="work#bellboy" class="btn btn-work" target="_blank">Learn More</a>
+							</div>
+						</div>
+						<div class="col-md-5 p-none">
+							<div class="work-wrapper-r">
+								<img class="work-img"src="img/icon/busApp.svg" alt="">
+							</div>
+						</div>
+						<div class="col-md-1"></div>
+					</div>
+					<br>
 					
-					<div class="row">
-					<div class="col-sm-6 pull-right wow fadeInRightBig">
-						<img class="img-responsive " src="img/APOP.png" alt="">
-					</div>
-
-					<div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
-						<h3 class="section-heading">A Piece of Pi</h3>
-						<p class="lead">Tech Blog</p>	
-
-						<!-- <p class="lead2">work in progress</p> -->
-						<!-- <ul class="descp lead2">
-							<li><i class="glyphicon glyphicon-question-sign"></i> Love to take the public transport but hate to wait ? </li>
-							<li><i class="glyphicon glyphicon-euro"></i> Don't wanna be chained to expensive ride hailing fee ?</li>
-							<li><i class="glyphicon glyphicon-star"></i> Bus timings like of those in MRT stations!</li>
-						</ul> -->
-
-						<p><a class="btn btn-embossed btn-danger" href="#" role="button">work in progress</a> 
-							<!-- <a class="btn btn-embossed btn-info" href="#" role="button">Live Demo</a></p> -->
-					</div>           
 				</div>
 			</div>
-		</div>
-	</div>
-
-	<div id ="work" class="content-section-b">
-        <div class="container">
-		<div class="content-section-a">
-			<div class="container">	
-					<div class="row">
-					<div class="col-sm-6 pull-left wow fadeInLeftBig">
-						<img class="img-responsive " src="img/cm.png" alt="">
-					</div>
-
-					<div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
-						<h3 class="section-heading">Clemantee Music</h3>
-						<p class="lead">Music Company Landing Page</p>
-						<p class="lead">Tech Blog</p>	
-
-						<p><a class="btn btn-embossed btn-danger" href="#" role="button">Work in Progress</a> 
-							<a class="btn btn-embossed btn-success"  href="https://clemanteemusic.com" role="button" target="_blank">Live Demo</a></p>
-					</div>           
-				</div>
-			</div>
-		</div>
-	</div>
+	</section>
 
 
-
-
-    <!-- <div class="content-section-b"> 
-		
-		<div class="container">
-            <div class="row">
-                <div class="col-sm-6 wow fadeInLeftBig">
-                    <div id="owl-demo-1" class="owl-carousel">
-						<a href="img/iphone.png" class="image-link">
-							<div class="item">
-								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
-							</div>
-						</a>
-						<a href="img/iphone.png" class="image-link">
-							<div class="item">
-								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
-							</div>
-						</a>
-						<a href="img/iphone.png" class="image-link">
-							<div class="item">
-								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
-							</div>
-						</a>
-					</div>       
-                </div>
-				
-                <div class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">   
-                    <h3 class="section-heading">Drag Gallery</h3>
-					<div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
-                    <p class="lead">
-						In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. 
-						Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, 
-						uam non erat mirum sapientiae lorem cupido
-						patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
-					</p>
-
-					<p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a> 
-					<a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>
-				</div>  			
-			</div>
-        </div> -->
-    
-
-
-
-	<!-- Screenshot -->
-	<!-- <div id="screen" class="content-section-b">
-        <div class="container">
-          <div class="row" >
-			 <div class="col-md-6 col-md-offset-3 text-center wrap_title ">
-				<h2>Screen App</h2>
-				<p class="lead" style="margin-top:0">A special thanks to Death.</p>
-			 </div>
-		  </div>
-		    <div class="row wow bounceInUp" >
-            <div id="owl-demo" class="owl-carousel">
-				
-				<a href="img/slide/1.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
-					</div>
-				</a>
-				
-               <a href="img/slide/2.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
-					</div>
-				</a>
-				
-				<a href="img/slide/3.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
-					</div>
-				</a>
-				
-				<a href="img/slide/1.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
-					</div>
-				</a>
-				
-               <a href="img/slide/2.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
-					</div>
-				</a>
-				
-				<a href="img/slide/3.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
-					</div>
-				</a>
-              </div>       
-          </div>
-        </div> -->
-
-
-	</div>
-	
-	<!-- <div  class="content-section-c ">
-		<div class="container">
-			<div class="row">
-			<div class="col-md-6 col-md-offset-3 text-center white">
-				<h2>Get Live Updates</h2>
-				<p class="lead" style="margin-top:0">A special thanks to Death.</p>
-			 </div>
-			<div class="col-md-6 col-md-offset-3 text-center">
-				<div class="mockup-content">
-						<div class="morph-button wow pulse morph-button-inflow morph-button-inflow-1">
-							<button type="button "><span>Subscribe to our Newsletter</span></button>
-							<div class="morph-content">
-								<div>
-									<div class="content-style-form content-style-form-4 ">
-										<h2 class="morph-clone">Subscribe to our Newsletter</h2>
-										<form>
-											<p><label>Your Email Address</label><input type="text"/></p>
-											<p><button>Subscribe me</button></p>
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-				</div>
-			</div>	
-			</div>>
-		</div>
-	</div>	 -->
-	
-	<!-- Credits -->
-	<!-- <div id="credits" class="content-section-a">
-		<div class="container">
-			<div class="row">
-			
-			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Credits</h2>
-				<p class="lead" style="margin-top:0">A special thanks to Death.</p>
-			 </div>
-			 
-				<div class="col-sm-6  block wow bounceIn">
-					<div class="row">
-						<div class="col-md-4 box-icon rotate"> 
-							<i class="fa fa-desktop fa-4x "> </i> 
-						</div>
-						<div class="col-md-8 box-ct">
-							<h3> Bootstrap </h3>
-							<p> Lorem ipsum dolor sit ametconsectetur adipiscing elit. Suspendisse orci quam. </p>
-						</div>
-				  </div>
-			  </div>
-			  <div class="col-sm-6 block wow bounceIn">
-					<div class="row">
-					  <div class="col-md-4 box-icon rotate"> 
-						<i class="fa fa-picture-o fa-4x "> </i> 
-					  </div>
-					  <div class="col-md-8 box-ct">
-						<h3> Owl-Carousel </h3>
-						<p> Nullam mo  arcu ac molestie scelerisqu vulputate, molestie ligula gravida, tempus ipsum.</p> 
-					  </div>
-					</div>
-			  </div>
-		  </div>
-		  
-		  <div class="row tworow">
-				<div class="col-sm-6  block wow bounceIn">
-					<div class="row">
-						<div class="col-md-4 box-icon rotate"> 
-							<i class="fa fa-magic fa-4x "> </i> 
-						</div>
-						<div class="col-md-8 box-ct">
-							<h3> Codrops </h3>
-							<p> Lorem ipsum dolor sit ametconsectetur adipiscing elit. Suspendisse orci quam. </p>
-						</div>
-				  </div>
-			  </div>
-			  <div class="col-sm-6 block wow bounceIn">
-					<div class="row">
-					  <div class="col-md-4 box-icon rotate"> 
-						<i class="fa fa-heart fa-4x "> </i> 
-					  </div>
-					  <div class="col-md-8 box-ct">
-						<h3> Lorem Ipsum</h3>
-						<p> Nullam mo  arcu ac molestie scelerisqu vulputate, molestie ligula gravida, tempus ipsum.</p> 
-					  </div>
-					</div>
-			  </div>
-		  </div>
-		</div>
-	</div> -->
-	
-	<!-- Banner Download -->
-	<!-- <div id="downloadlink" class="banner">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3 text-center wrap_title">
-				<h2>Download Free</h2>
-				<p class="lead" style="margin-top:0">Pay with a Tweet</p>
-				<p><a class="btn btn-embossed btn-primary view" role="button">Free Download</a></p> 
-			 </div>
-			</div>
-		</div>
-	</div> -->
-	
 	<!-- Contact -->
 	<div id="contact" class="content-section-a">
 		<div class="container">

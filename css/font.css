@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+.custom-title-font{
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 600;
+}
+
+.custom-subheading-font{
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 500;
+}
+
+.custom-subtitle-font{
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 400;
+}
+.underline{
+    border-top: 2px solid #81BCDA;
+    color: #FFF;
+}
+
+.c-mt{
+    margin-top: 15% !important;
+}
+
+.my-work{
+    margin-top:800px;
+}
