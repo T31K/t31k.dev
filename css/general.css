@@ -1060,6 +1060,12 @@ color: #ECEBEB;
 
 /* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 1200px) {
+		body, html {
+			height: 100%;
+			width: 100%;
+			overflow-x:hidden;
+		}
+
 		.intro-header {
 			height: 100%;
 			padding-top: 50px;
@@ -1092,6 +1098,8 @@ color: #ECEBEB;
 		h2.contact{
 			margin-top: 130px !important;
 		}
+
+		
 	}
 
 /* Mobile Landscape */
