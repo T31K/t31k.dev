@@ -1091,6 +1091,10 @@ color: #ECEBEB;
 		h2.contact{
 			margin-top: 130px !important;
 		}
+
+		body {
+			position: absolute;
+		   }
 	}
 
 /* Mobile Landscape */
