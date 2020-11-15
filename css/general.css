@@ -12,7 +12,7 @@ http://www.andreagalanti.it
 body, html {
 	height: 100%;
 	width: 100%;
-	overflow-x:hidden !important;
+	overflow-x:hidden;
 }
 
 ::-moz-selection{background:#1abc9c;color:white}
@@ -1060,12 +1060,6 @@ color: #ECEBEB;
 
 /* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 1200px) {
-		body, html {
-			height: 100%;
-			width: 100%;
-			overflow-x: hidden !important;
-		}
-
 		.intro-header {
 			height: 100%;
 			padding-top: 50px;
@@ -1098,8 +1092,6 @@ color: #ECEBEB;
 		h2.contact{
 			margin-top: 130px !important;
 		}
-
-		
 	}
 
 /* Mobile Landscape */
@@ -1110,7 +1102,9 @@ color: #ECEBEB;
 
 /* Mobile Portrait */
 @media only screen and (max-width: 639px) {
-
+	#techstack{
+		margin-top: 150px !important;
+	}
 
 	h2.contact{
 	margin-top: 120px !important;
@@ -1273,8 +1267,4 @@ p.copyright {
 		display: none;
 	}
 
-}
-
-#techstack{
-	margin-top: 150px !important;
 }

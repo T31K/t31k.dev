@@ -542,3 +542,7 @@ border-color: #D6606A;
 
 }
 
+.slick-prev:before, .slick-next:before{
+	margin-top: 100px !important;
+	color: #1A4038 !important;
+  }
