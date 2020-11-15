@@ -12,7 +12,7 @@ http://www.andreagalanti.it
 body, html {
 	height: 100%;
 	width: 100%;
-	overflow-x:hidden;
+	position:fixed
 }
 
 ::-moz-selection{background:#1abc9c;color:white}
