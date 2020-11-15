@@ -12,8 +12,7 @@ http://www.andreagalanti.it
 body, html {
 	height: 100%;
 	width: 100%;
-	overflow-x :hidden !important;
-	overflow-y: scroll !important;
+	overflow-x:hidden;
 }
 
 ::-moz-selection{background:#1abc9c;color:white}
@@ -981,7 +980,6 @@ color: #ECEBEB;
 	overflow: hidden;
 }
 
-
 .morph-button-overlay.scroll .morph-content {
 	overflow-y: scroll;
 }
@@ -1094,8 +1092,6 @@ color: #ECEBEB;
 		h2.contact{
 			margin-top: 130px !important;
 		}
-
-	
 	}
 
 /* Mobile Landscape */
