@@ -12,6 +12,8 @@ http://www.andreagalanti.it
 body, html {
 	height: 100%;
 	width: 100%;
+	overflow-x :hidden;
+	overflow-y :hidden;
 }
 
 ::-moz-selection{background:#1abc9c;color:white}
@@ -1091,10 +1093,6 @@ color: #ECEBEB;
 		h2.contact{
 			margin-top: 130px !important;
 		}
-
-		body {
-			position: absolute;
-		   }
 	}
 
 /* Mobile Landscape */
