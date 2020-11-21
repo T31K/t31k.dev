@@ -1,10 +1,3 @@
-/*
-Theme: Flatfy Theme
-Author: Andrea Galanti
-Bootstrap Version 
-Build: 1.0
-http://www.andreagalanti.it
-*/
 
 /*General */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;350;400;600&display=swap');
@@ -14,6 +7,7 @@ body, html {
 	width: 100%;
 	overflow-x:hidden;
 }
+
 
 ::-moz-selection{background:#1abc9c;color:white}
 

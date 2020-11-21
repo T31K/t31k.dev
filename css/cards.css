@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
 
 .work-wrapper-l {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     border-radius: 15px 0 0 15px;
     padding: 25px 45px;
     box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
@@ -18,8 +18,10 @@
     padding: 25px 45px;
 }
 
+
 .work-wrapper-r-alt {
     background-color: #fff;
+    border-radius: 0 15px 15px 0;
     padding: 25px 45px;
     box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
     font-family: 'Playfair Display', serif;
@@ -29,7 +31,7 @@
     background: #ee9ca7; 
     background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7); 
     background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
-    border-radius: 15px 15px 0 0;
+    border-radius: 15px 0 0 15px;
     box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
     padding: 25px 45px;
 }
