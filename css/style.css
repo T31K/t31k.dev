@@ -208,7 +208,13 @@ body {
   line-height: 1.72222;
   color: #34495e;
   background-color: #ffffff;
+    overflow-x: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
+
 a {
   color: #34495e;
   text-decoration: none;
