@@ -313,7 +313,7 @@ color: #ECEBEB;
 }
 
 /* Animate */
-.rotate{
+/* .rotate{
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
     -o-transition-duration: 0.8s;
@@ -333,7 +333,7 @@ color: #ECEBEB;
     -webkit-transform:rotate(360deg);
     -moz-transform:rotate(360deg);
     -o-transform:rotate(360deg);
-}  
+}   */
 
 
 
@@ -1059,7 +1059,7 @@ color: #ECEBEB;
 			padding-top: 50px;
 			padding-bottom: 50px;
 			color: #f8f8f8;
-			background: url(../img/intro/intro_mobile.jpg) no-repeat center center;
+			/* background: url(../img/intro/intro_mobile.jpg) no-repeat center center; */
 			background-size: cover;
 			text-align: center;
 		}
