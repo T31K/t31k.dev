@@ -327,11 +327,14 @@ h3.title-alt {
 
 footer{
     background: #BDC3C7;
+    padding: 35px;
 }
 
 li.social a{
-    display: block;
-    font-size: 2rem;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 15px;
 }
 
 h1#social{

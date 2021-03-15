@@ -36,3 +36,11 @@
 .contact{
     margin-top :80px !important;
 }
+
+p#navi-links{
+    color: #344A5F;
+}
+
+a.navi-text{
+    font-size: 1.5rem !important;
+}
