@@ -325,4 +325,15 @@ h3.title-alt {
     display: block;
 }
 
+footer{
+    background: #BDC3C7;
+}
 
+li.social a{
+    display: block;
+    font-size: 2rem;
+}
+
+h1#social{
+    margin-bottom: 15px;
+}
