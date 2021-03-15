@@ -171,6 +171,23 @@ h3.title-alt {
     color: #fff;
 }
 
+.btn-yellow,  .btn-yellow:not(:disabled):not(.disabled).active, .btn-yellow:not(:disabled):not(.disabled):active {
+    background: #FEDE9A;
+    box-shadow: 0 11px 36px 0 rgba(70,89,138,.25);
+    color: #fff;
+}
+.btn-blue,  .btn-blue:not(:disabled):not(.disabled).active, .btn-blue:not(:disabled):not(.disabled):active {
+    background: #81bcda;
+    box-shadow: 0 11px 36px 0 rgba(70,89,138,.25);
+    color: #fff;
+}
+
+.btn-purple,  .btn-purple:not(:disabled):not(.disabled).active, .btn-purple:not(:disabled):not(.disabled):active {
+    background: #A88DEA;
+    box-shadow: 0 11px 36px 0 rgba(70,89,138,.25);
+    color: #fff;
+}
+
 .btn-orange{
     background: #ffc58c;  /* fallback for old browsers */
     box-shadow: 0 11px 36px 0 rgba(70,89,138,.25);
@@ -312,11 +329,11 @@ h3.title-alt {
 }
 
 .bg-red{
-    background: #ff0b2fb1;
+    background: #F58D81;
 }
 
 .bg-pink{
-    background: #ffa7a7;
+    background: #FEDE9A;
 }
 
 .bg-purple{
@@ -324,6 +341,11 @@ h3.title-alt {
     margin: 0 auto;
     display: block;
 }
+
+.bg-blue{
+    background: #81BCDA;
+}
+
 
 footer{
     background: #BDC3C7;
