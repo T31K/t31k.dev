@@ -1047,14 +1047,22 @@ color: #ECEBEB;
 -------------------------------------------------------------------------------*/
 
 /* 960 Screens */
-@media only screen and (min-width: 960px) and (max-width: 1250px) {
-	
+@media only screen and (min-width: 1000px) and (max-width: 1250px) {
+	img#hero-icon{
+		opacity: 1 !important;
+		margin-top: 15% !important;
+		width: 40% !important;
+	}
 }
-@media only screen and (min-width: 768px) and (max-width: 820px) {
-	
+@media only screen and (min-width: 800px) and (max-width: 999px) {
+	img#hero-icon{
+		opacity: 1 !important;
+		width: 50% !important;
+		margin-top: 30% !important;
+	}
 }
 /* Tablet */
-@media only screen and (min-width: 375px) and (max-width: 940px) {
+@media only screen and (min-width: 375px) and (max-width: 799px) {
 	
 	h1, .h1 {
 		font-size: 50px;
@@ -1065,12 +1073,17 @@ color: #ECEBEB;
 	}
 	img#hero-icon{
 		opacity: 1 !important;
-		margin-top: 20% !important;
+		width: 80% !important;
+		margin-top: 50% !important;
 	}
 	
 }
 
-
+@media only screen and (min-width: 1251px) and (max-width: 3000px){
+	div.hero-text{
+		display: none !important;
+	}
+}
 /* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 1200px) {
 		.intro-header {
@@ -1114,7 +1127,6 @@ color: #ECEBEB;
 	}
 }
 
-img
 /* Mobile Portrait */
 @media only screen and (max-width: 639px) {
 	#techstack{

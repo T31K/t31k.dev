@@ -342,6 +342,13 @@ h3.title-alt {
     display: block;
 }
 
+.bg-special{
+    background: #d2dae2;
+    margin: 0 auto;
+    display: block;
+    color: #222 !important;
+}
+
 .bg-blue{
     background: #81BCDA;
 }
@@ -350,6 +357,7 @@ h3.title-alt {
 footer{
     background: #BDC3C7;
     padding: 35px;
+    margin-top: 20%;
 }
 
 li.social a{
