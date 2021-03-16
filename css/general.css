@@ -1054,7 +1054,7 @@ color: #ECEBEB;
 	
 }
 /* Tablet */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 375px) and (max-width: 940px) {
 	
 	h1, .h1 {
 		font-size: 50px;
