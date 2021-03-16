@@ -2,21 +2,36 @@
 /*General */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;350;400;600&display=swap');
 
-body, html {
-	height: 100%;
-	width: 100%;
-	overflow-x:hidden;
+html{
+	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
+
+body {
+	width:100%;
+	height: 100%;
+	overflow-x: hidden !important;
+	-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+			box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	color: #444444;
+}
+
 
 
 ::-moz-selection{background:#1abc9c;color:white}
 
 ::selection{background:#1abc9c;color:white}
 
-.abcen{position: absolute;bottom: 8%;}
+div#hero{
+	height: 100vh;
+}
 
-.abcen1{position: absolute;top: 20%;}
-
+img#hero-icon{
+	margin-top: 50%;
+	opacity: 0;
+}
 .content-section-c {
 	border-top: 1px solid #32465A;
 	border-bottom: 1px solid #32465A;
@@ -1041,14 +1056,18 @@ color: #ECEBEB;
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	
-		h1, .h1 {
-			font-size: 50px;
-		}
-		
-		h3, .h3 {
-			font-size: 20px;
-		}
-		
+	h1, .h1 {
+		font-size: 50px;
+	}
+	
+	h3, .h3 {
+		font-size: 20px;
+	}
+	img#hero-icon{
+		opacity: 1 !important;
+		margin-top: 20% !important;
+	}
+	
 }
 
 
@@ -1090,10 +1109,12 @@ color: #ECEBEB;
 
 /* Mobile Landscape */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
-	
-	
+	img#hero-icon{
+		opacity: 1 !important;
+	}
 }
 
+img
 /* Mobile Portrait */
 @media only screen and (max-width: 639px) {
 	#techstack{
