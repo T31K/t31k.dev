@@ -18,6 +18,7 @@
     <!-- Custom CSS-->
     <link href="css/general.css" rel="stylesheet">
 	<link href="css/cards.css" rel="stylesheet">
+	<link href="css/nav.css" rel="stylesheet">
 	
 	<!-- Owl-Carousel -->
     <link href="css/custom.css" rel="stylesheet">
@@ -32,9 +33,6 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
 	<link rel="manifest" href="img/fav/site.webmanifest">
 	
-	<!-- Magnific Popup core CSS file -->
-	<link rel="stylesheet" href="css/magnific-popup.css"> 
-	<script src="js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
 
 </head>
 
@@ -54,11 +52,10 @@
 		</div>
     </div>
 	
-	<!-- NavBar-->
-	<nav class="navbar-default navbar-fixed-top" role="navigation" id="main">
+	<nav class="navbar-default navbar-fixed-top" role="navigation" >
 		<div class="container" >
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"></button>
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -66,14 +63,12 @@
 				</button>
 				<a class="navbar-brand custom-font" href="#home">T31K.</a>
 			</div>
-
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					
-					<li class="menuItem"><a href="#home">HOME</a></li>
-					<li class="menuItem"><a href="#about">ABOUT</a></li>
-					<li class="menuItem"><a href="#work">WORK</a></li>
-					<li class="menuItem"><a href="#contact">CONTACT</a></li>
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#home">HOME</a></li>  
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#about">ABOUT</a></li>  
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#work">WORK</a></li>  
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#contact">CONTACT</a></li>  
 				</ul>
 			</div>
 		</div>
@@ -332,12 +327,10 @@
 	<script src="js/owl.carousel.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/stickUp.min.js"></script>
-	<script type="text/javascript" src="js/jquery.corner.js"></script> 
+	<script src="js/jquery.corner.js"></script> 
 	<script src="js/uiMorphingButton_inflow.js"></script>
 	<script src="js/jquery.magnific-popup.js"></script> 
-	<script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
-	<script src="js/owl.carousel.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/stickUp.min.js"></script>
 	<script src="js/stickUpConfig.js"></script>
@@ -347,6 +340,10 @@
 	<script src="js/classie.js"></script>
 	<script src="js/uiMorphingButton_inflow.js"></script>
 	<script src="js/jquery.magnific-popup.js"></script> 
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>   
+	<script src="http://twitter.github.io/bootstrap/assets/js/bootstrap-transition.js"></script>
+	<script src="http://twitter.github.io/bootstrap/assets/js/bootstrap-collapse.js"></script>
+	
 </body>
 
 </html>

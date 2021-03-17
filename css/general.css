@@ -20,10 +20,12 @@ body {
 
 
 
-::-moz-selection{background:#1abc9c;color:white}
-
-::selection{background:#1abc9c;color:white}
-
+::selection {
+	background: red; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+	background: #ffb7b7; /* Gecko Browsers */
+  }
 div#hero{
 	height: 100vh;
 }
@@ -256,8 +258,9 @@ color: #ECEBEB;
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 50px;
 	color: #f8f8f8;
-	background: url(../img/intro/intro6.jpg) no-repeat center center;
-	background-size: cover;
+	background: url(../img/intro/bg-main.svg) no-repeat center center;
+	background-color: #81BCDA;
+	background-size: contain;
 	text-align: center;
 }
 
