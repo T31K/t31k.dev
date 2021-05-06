@@ -7,6 +7,8 @@
     padding: 25px 45px;
     box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
     font-family: 'Playfair Display', serif;
+    height: 90vh;
+
 }
 
 .work-wrapper-r {
@@ -16,6 +18,8 @@
     border-radius: 0 15px 15px 0;
     box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
     padding: 25px 45px;
+    height: 90vh;
+
 }
 
 
@@ -25,15 +29,18 @@
     padding: 25px 45px;
     box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
     font-family: 'Playfair Display', serif;
+    height: 90vh;
+
 }
 
 .work-wrapper-l-alt {
-    background: #ee9ca7; 
-    background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7); 
+    background: #ee9ca7;
+    background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7);
     background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
     border-radius: 15px 0 0 15px;
     box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
     padding: 25px 45px;
+    height: 90vh;
 }
 
 .p-none{
@@ -231,7 +238,7 @@ h3.title-alt {
         font-family: 'Playfair Display', serif;
         text-align: center;
     }
-    
+
     .work-wrapper-r {
         background: #ee9ca7;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
@@ -240,7 +247,7 @@ h3.title-alt {
         box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
         padding: 25px 45px;
     }
-    
+
 
     .work-wrapper-r-alt {
         background-color: #fff;
@@ -249,16 +256,16 @@ h3.title-alt {
         box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
         font-family: 'Playfair Display', serif;
     }
-    
+
     .work-wrapper-l-alt {
-        background: #ee9ca7; 
-        background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7); 
+        background: #ee9ca7;
+        background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7);
         background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
         border-radius: 15px 15px 0 0;
         box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
         padding: 25px 45px;
     }
-    
+
     .text-custom-center{
         text-align:center;
     }
@@ -295,7 +302,7 @@ h3.title-alt {
         letter-spacing: .44px;
         color: #7c82a2;
     }
-    
+
 
     img.work-img  {
         position: relative;
@@ -314,7 +321,7 @@ h3.title-alt {
         margin-bottom: 8%;
     }
 
-    
+
 }
 
 .form{
@@ -322,11 +329,11 @@ h3.title-alt {
     margin: 0 auto;
 }
 .bg-orange{
-    background: #ffc07c; 
+    background: #ffc07c;
 }
 
 .bg-green{
-    background: #9BD0A5; 
+    background: #9BD0A5;
 }
 
 .bg-red{
