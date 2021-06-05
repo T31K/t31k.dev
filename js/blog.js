@@ -67,7 +67,7 @@ function changeTags(tag) {
     case "self-improvement"         : return emojiUnicode("🧘🏻‍♂️")
     case "careers"                  : return emojiUnicode("📈")
     case "league-of-legends"        : return emojiUnicode("🎮")
-    case "self-taught"              : return emojiUnicode("🖥")
+    case "self-taught"              : return emojiUnicode("💡")
   }
 }
 
