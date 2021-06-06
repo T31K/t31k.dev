@@ -96,7 +96,7 @@ if (response.status == 'ok') {
 
     // Clean up & Append Description
     let {description} = items
-    let final_description = truncateBefore(description, "\"medium-feed-snippet\">")
+    let final_description = truncateBefore(description, "\"medium-feed-snippet\">").replace("&amp;", "&")
     $(`#${index} .description`).text(final_description)
 
     // Clean up & Append Categories
