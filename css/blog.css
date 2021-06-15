@@ -5,6 +5,12 @@
   padding-right: 10%;
 }
 
+.rainbow {
+  color: #CF7075;
+  animation: blinker 1.2s step-end infinite;
+  animation: rainbow 7s infinite alternate;
+}
+
 div.top-menu {
   background: #ddd;
   height: 50px;
@@ -35,11 +41,7 @@ div.top-menu div {
   animation: blinker 1.2s step-end infinite;
 }
 
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-}
+
  span {
 
    margin-left: 6px;
@@ -136,3 +138,37 @@ div.tags span:nth-child(4) {
 div.tags span:nth-child(5) {
   background: #C79B6D;
 }
+
+
+
+@keyframes rainbow {
+    0% {
+      color: #CF7075;
+    }
+
+    20% {
+      color: #ffc07c;
+    }
+
+    40% {
+      color: #FEDE9A;
+    }
+
+    60% {
+      color: #9BD0A5;
+    }
+
+    80% {
+      color: #74ADEA;
+    }
+
+    100% {
+      color: #a88dea
+    }
+  }
+
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }

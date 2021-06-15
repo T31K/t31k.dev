@@ -1,3 +1,5 @@
+var isThisWeek = dateFns.isThisWeek
+
 function addWindow (index) {
   return `<div class="blog-window" id="${index}">
             <div class="top-menu">
@@ -11,7 +13,7 @@ function addWindow (index) {
               </div>
             </div>
             <div class="inner">
-              <h4>>_ </h4>
+              <h4 class="new">>_ </h4>
               <h3 class="data-title">4 Tips To Improve Productivity</h3>
               <h5 class="description">Hello world, my name is Tim</h5>
               <a class="link" href="hello" target="_blank">Read More</a>
@@ -59,15 +61,25 @@ function changeTags(tag) {
     case "health"                   : return emojiUnicode("🏥")
     case "life"                     : return emojiUnicode("🙏🏻")
     case "life-lessons"             : return emojiUnicode("🎓")
+    case "education"                : return emojiUnicode("📚")
     case "programming"              : return emojiUnicode("💻")
+    case "politics"                 : return emojiUnicode("🚔")
+    case "travel"                   : return emojiUnicode("🛫")
+    case "design"                   : return emojiUnicode("🎨")
+    case "love"                     : return emojiUnicode("💻")
     case "javascript"               : return emojiUnicode("🧩")
     case "technology"               : return emojiUnicode("📱")
+    case "business"                 : return emojiUnicode("📈")
     case "coding"                   : return emojiUnicode("🖥")
     case "software-development"     : return emojiUnicode("📡")
     case "self-improvement"         : return emojiUnicode("🧘🏻‍♂️")
     case "careers"                  : return emojiUnicode("📈")
     case "league-of-legends"        : return emojiUnicode("🎮")
     case "self-taught"              : return emojiUnicode("💡")
+    case "music"                    : return emojiUnicode("🎹")
+    case "sports"                   : return emojiUnicode("🏀")
+    case "food"                     : return emojiUnicode("🍔")
+    case "art"                      : return emojiUnicode("🖌")
   }
 }
 
@@ -88,11 +100,20 @@ if (response.status == 'ok') {
     // Clean up & Append Date
     let {pubDate}= items
     let date = $.format.date(pubDate, "dd MMM yyyy")
-    $(`#${index} .date`).text(date)
+
+    let new_tag_checker = isThisWeek(pubDate)
+
+    if (new_tag_checker) {
+      $(`#${index} .date`).text(date)
+      $(`#${index} .new`).text('>_ NEW')
+      $(`#${index} .new`).addClass('rainbow')
+    } else {
+      $(`#${index} .date`).text(date)
+    }
 
     // Clean up & Append Title
     let {title} = items
-    $(`#${index} .data-title`).text(title)
+    $(`#${index} .data-title`).text(title.replace("&amp;", "&"))
 
     // Clean up & Append Description
     let {description} = items
