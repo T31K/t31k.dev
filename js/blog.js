@@ -95,7 +95,7 @@ if (response.status == 'ok') {
 
   res.map((items, index) => {
     // Duplicate Windows
-    $("section.blog .container").append(addWindow(index))
+    $("section.blog .blog-container").append(addWindow(index))
 
     // Clean up & Append Date
     let {pubDate}= items
