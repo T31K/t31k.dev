@@ -92,7 +92,6 @@ $.get(url, data, function(response){
 if (response.status == 'ok') {
 
   let res = response.items
-
   res.map((items, index) => {
     // Duplicate Windows
     $("section.blog .blog-container").append(addWindow(index))
@@ -115,6 +114,10 @@ if (response.status == 'ok') {
     let {title} = items
     $(`#${index} .data-title`).text(title.replace("&amp;", "&"))
 
+    if (title === "How to Create a Kick-ass Portfolio Site that will WOW Your Next Employer"){
+      $(`#${index} .new`).text('>_  ⭐️🔥')
+      $(`#${index} .new`).addClass('rainbow')
+    }
     // Clean up & Append Description
     let {description} = items
     let final_description = truncateBefore(description, "\"medium-feed-snippet\">").replace("&amp;", "&")
@@ -130,6 +133,8 @@ if (response.status == 'ok') {
     // Clean up & Append Link
     let {link} = items
     $(`#${index} .link`).attr('href', link)
+
+
   })
   }
 })
