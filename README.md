@@ -4,6 +4,8 @@
 👋🏻  Hi there, welcome to my portfolio site, this page was Boostrapped using [Flatfy Theme](https://github.com/andreagalanti/Flatfy-Free-Flat-and-Responsive-HTML5-Template).
 The skeleton was built using this theme but I've gone lengths to customize it to my personal preference.
 
+🙏🏻   If you came from my Medium post, thank you for your contribution.
+
 ## 📚 Libraries Used
 - [x] Bootstrap
 - [x] jQuery
