@@ -83,7 +83,7 @@ function changeTags(tag) {
   }
 }
 
-const url = " https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40T31K%2F"
+const url = " https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40T31K"
 
 
 var data = {rss: "https://medium.com/feed/@T31K"}
@@ -92,6 +92,7 @@ $.get(url, data, function(response){
 if (response.status == 'ok') {
 
   let res = response.items
+  // console.log(res)
   res.map((items, index) => {
     // Duplicate Windows
     $("section.blog .blog-container").append(addWindow(index))
