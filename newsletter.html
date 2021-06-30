@@ -8,19 +8,21 @@
 
 	<title>Tim Wong Portfolio Site | Software Engineer, Ex Flight Crew, Atomic Habits (JavaScript, Ruby, React, Python)</title>
 
+	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
 	<link href="css/font.css" rel="stylesheet" >
 
 	<!-- Custom CSS-->
 	<link href="css/general.css" rel="stylesheet">
 	<link href="css/cards.css" rel="stylesheet">
-	<link href="css/nav.css" rel="stylesheet">
-	<link href="css/newsletter.css" rel="stylesheet">
 
-	<link href="css/custom.css" rel="stylesheet">
+	<!-- Owl-Carousel -->
+  <link href="css/custom.css" rel="stylesheet">
+  <link href="css/blog.css" rel="stylesheet">
+	<link href="css/newsletter.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/animate.css" rel="stylesheet">
 
@@ -30,22 +32,20 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
 	<link rel="manifest" href="img/fav/site.webmanifest">
 
+	<!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="https://kit.fontawesome.com/9587882c07.js" crossorigin="anonymous"></script>
+	<script src="js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
 
 </head>
 
 <body id="home">
-
 	<!-- Preloader -->
 	<div id="preloader">
 		<div id="status"></div>
 	</div>
 
-	<!-- FullScreen -->
-		<div class="col-xs-12 text-center abcen wow hero-text">
-
-		</div>
-    </div>
-
+	<!-- NavBar-->
 	<nav class="navbar-default navbar-fixed-top" role="navigation" >
 		<div class="container" >
 			<div class="navbar-header">
@@ -59,90 +59,75 @@
 			</div>
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#home">HOME</a></li>
-					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#about">ABOUT</a></li>
-					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#work">WORK</a></li>
-					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="/blog">BLOG</a></li>
-					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#contact">CONTACT</a></li>
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="/">HOME</a></li>
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="/#about">ABOUT</a></li>
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="/#work">WORK</a></li>
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">BLOG</a></li>
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="/#contact">CONTACT</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
-
-
-
-	<!-- Contact -->
-	<br><br><br>
-	<section id="contact">
-		<div class="container" id="newsletter"  >
-			<div class="row">
-
-			<div id="newsletter_title">
-			</div>
-
-			<div class="col-md-12" id="newsletter_content">
-				<h3 class="text-center">Get Notified <br> When I Post On Medium</h3>
-				<p>No Spams I Promise ✌🏻</p>
-				<form role="form" action="https://formspree.io/f/xpzkllpn" method="post" class="form" >
-						<div class="form-group">
-							<div class="input-group">
-								<input type="text" class="form-control" id="InputEmail" name="_replyto" placeholder="Email" required  >
-								<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-							</div>
-						</div>
-
-						<div class="form-group">
-								<div class="input-group">
-								<input type="text" class="form-control" id="InputEmail" name="name" placeholder="Name" required  >
-									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-								</div>
-
-							<input type="submit" name="submit" id="submit" value="Submit" class="btn btn-work btn-red bg-special mx-auto">
-
-						</div>
-
-				</form>
-			</div>
-
-
-			</div>
-		</div>
-	</section>
-
-	<footer>
-		<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="d-block mx-auto">
-							<li class="social d-block text-center social">
-								<a href="https://linkedin.com/in/teikmunwong" class="text-center"><i class="fa fa-linkedin-square fa-size"></i></a>
-								<a href="https://github.com/T31K"><i class="fa fa-github fa-size"> </i></a>
-								<a href="mailto:t31kmunwong@gmail.com"><i class="fa fa-envelope fa-size"> </i></a>
-								<p class="custom-p-font" id="navi-links"><a href="/" class="navi-text">HOME</a><a href="/#about" class="navi-text">ABOUT</a><a href="/#work" class="navi-text">WORK</a><a href="/blog" class="navi-text">BLOG</a><a href="/#contact" class="navi-text">CONTACT</a></p>
-							</li>
-							<br>
-						</div>
-					</div>
+<section class="blog">
+	<br><br> <br>
+	<div class="blog-container">
+		<div class="blog-window">
+			<div class="top-menu">
+				<div>
+					<span class="red"></span>
+					<span class="orange"></span>
+					<span class="green"></span>
+				</div>
+				<div>
+					<span class="date">2017 January 30th</span>
 				</div>
 			</div>
-	</footer>
+			<div class="inner" style="height: 500px;">
+				<h4 class="new">>_ </h4>
+				<h3 class="text-center">Get Notified When I Post On Medium 📧</h3>
+				<br><br>
+				<form role="form" action="https://formspree.io/f/xpzkllpn" method="post" class="form" >
+					<div class="form-group">
+						<div class="input-group">
+							<input type="email" class="form-control" id="InputEmail" name="_replyto" placeholder="Email" required  >
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="input-group">
+							<input type="text" class="form-control" id="InputName" name="name" placeholder="Name" required  >
+							<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+						</div>
+						<br>
+						<p class="text-center">No Spams I Promise 👍🏻</p>
+						<input type="submit" name="submit" id="subscribe" value="Subscribe" class="btn btn-work btn-red bg-special mx-auto"  >
+					</div>
+				</form>
+			</div>
+			<div class="tags"></div>
+			</div>
+	</div>
+</section>
+
+
+
 
 
     <!-- JavaScript -->
 	<script src="js/jquery-1.10.2.js"></script>
+	<script src="js/jqueryDate.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.30.1/date_fns.min.js" integrity="sha512-F+u8eWHrfY8Xw9BLzZ8rG/0wIvs0y+JyRJrXjp3VjtFPylAEEGwKbua5Ip/oiVhaTDaDs4eU2Xtsxjs/9ag2bQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script src="js/bootstrap.js"></script>
+	<script src="js/news.js"></script>
 	<script src="js/owl.carousel.js"></script>
-	<script src="js/script.js"></script>
-	<script src="js/jquery.corner.js"></script>
-	<script src="js/bootstrap.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/jquery.corner.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/wowInit.js"></script>
 	<script src="js/classie.js"></script>
+	<script src="js/uiMorphingButton_inflow.js"></script>
 	<script src="js/jquery.magnific-popup.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
 </body>
 
 </html>
