@@ -22,12 +22,11 @@ function addWindow (index) {
             <div class="tags">
 
               <div>
-
-                <span id="tag_${index}0">⚛️</span>
-                <span id="tag_${index}1">💻</span>
-                <span id="tag_${index}2">🧘🏻‍♂️</span>
-                <span id="tag_${index}3">🖥</span>
-                <span id="tag_${index}4">🎮</span>
+                <span id="tag_${index}0" tooltip-flow='top'>⚛️</span>
+                <span id="tag_${index}1" tooltip-flow='top'>💻</span>
+                <span id="tag_${index}2" tooltip-flow='top'>🧘🏻‍♂️</span>
+                <span id="tag_${index}3" tooltip-flow='top'>🖥</span>
+                <span id="tag_${index}4" tooltip-flow='top'>🎮</span>
               </div>
             </div>
           </div>
@@ -129,6 +128,7 @@ if (response.status == 'ok') {
     for (let i = 0; i < 5; i++) {
       let final_categories = changeTags(categories[i])
       $(`#tag_${index}${i}`).text(final_categories)
+      $(`#tag_${index}${i}`).attr('tooltip', categories[i])
     }
 
     // Clean up & Append Link
