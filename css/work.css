@@ -1,0 +1,22 @@
+.project-wrapper{
+  border-radius: 20px;
+  padding: 25px 45px;
+  box-shadow: 0 70px 140px 0 rgba(130, 136, 171, .2);
+  height: 1050px;
+}
+
+.text-red {
+  color: #EE8C80;
+}
+
+.center-all {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.gif {
+  border-radius: 20px;
+  border: 25px solid #3c3c3c;
+
+}

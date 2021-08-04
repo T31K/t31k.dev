@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-	<meta name="description" content="Software Enginner | Open to new opportunities ">
-    <meta name="author" content="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="description" content="Tim Wong is a Software Engineer with a wide array of skills from programming, writing, design. Love to meet new people & learn all about startups and businesses.">
+	<meta name="author" content="">
 
-    <title>Tim Wong Portfolio Site</title>
+	<title>Tim Wong Portfolio Site | Software Engineer, Ex Flight Crew, Atomic Habits (JavaScript, Ruby, React, Python)</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom Google Web Font -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link href="css/font.css" rel="stylesheet" >
-    <!-- Custom CSS-->
-    <link href="css/general.css" rel="stylesheet">
-	<link href="css/cards.css" rel="stylesheet">
 
-	<!-- Owl-Carousel -->
-    <link href="css/custom.css" rel="stylesheet">
-	<link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.css" rel="stylesheet">
+	<!-- Custom CSS-->
+	<link href="css/general.css" rel="stylesheet">
+	<link href="css/cards.css" rel="stylesheet">
+	<link href="css/nav.css" rel="stylesheet">
+	<link href="css/work.css" rel="stylesheet">
+
+	<link href="css/custom.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/animate.css" rel="stylesheet">
 
@@ -32,183 +32,104 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
 	<link rel="manifest" href="img/fav/site.webmanifest">
 
-	<!-- Magnific Popup core CSS file -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<script src="https://kit.fontawesome.com/9587882c07.js" crossorigin="anonymous"></script>
-	<script src="js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
 
 </head>
 
 <body id="home">
+
 	<!-- Preloader -->
 	<div id="preloader">
 		<div id="status"></div>
 	</div>
 
-	<!-- NavBar-->
-	<nav class="navbar-default navbar-fixed-top" role="navigation" id="main">
+	<!-- FullScreen -->
+
+
+	<nav class="navbar-default navbar-fixed-top" role="navigation" >
 		<div class="container" >
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"></button>
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/">T31K.</a>
+				<a class="navbar-brand " href="/">T31K.</a>
 			</div>
-
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-
-					<li class="menuItem"><a href="/css/">HOME</a></li>
-					<li class="menuItem"><a href="/#about">ABOUT</a></li>
-					<li class="menuItem"><a href="">WORK</a></li>
-					<li class="menuItem"><a href="/#contact">CONTACT</a></li>
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#home">HOME</a></li>
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#about">ABOUT</a></li>
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#work">WORK</a></li>
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="/blog">BLOG</a></li>
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#contact">CONTACT</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 
-	<!-- WORK -->
-    <div id ="work" class="content-section-a custom-p-font">
-		<div class="c-mt"></div>
-		<h2 class="text-center custom-title-font">busApp</h2>
-		<h3 class="lead text-center">ReactJS App to display bus timings using Singapore LTA API</h3>
-        <div class="container">
-		<div class="content-section-a">
+	<section id="work">
+		<br><br>
+		<div class="container">
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 wow fadeInLeftBig text-left pl-5"  data-animation-delay="200">
+				<div class="text-center ">
+					<h2 class="custom-title-font ">My Work</h2>
+					<span class="text-center underline mb-5">__________________</span>
+				</div>
+				<br><br>
 
-						<h3 class="text-left"><i class="fas fa-exclamation-circle"></i> Project Goal</h3>
-						<li>Love to take the public transport but hate to wait?</li>
-						<li>Don't wanna be chained to the shackles of expensive ride hailing services fee?</li>
-						<li>Have an extra tablet lying around in your house?</li>
-						<li>This is the app for you then. A single page React app to show bus timings like of those in MRT stations!</li>
-						<br><br>
-
-						<h3 class="text-left"><i class="fas fa-layer-group"></i> Technologies Used</h3>
-						<li>JavaScript</li>
-						<li>React.js</li>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>SASS</li>
-						<li>Moment.js</li>
-						<li>ColorHunt</li>
-						<li>FontAwesome</li>
-						<li>SemanticUI</li>
-						<br><br>
-
-						<h3 class="text-left"><i class="fas fa-trophy"></i> Project Achievement</h3>
-						<li>No downloads needed</li>
-						<li>Auto refresh ETAs</li>
-						<li>Improve usage of async/await syntax </li>
-						<li>Improve usage of CORS request</li>
-						<br><br>
-
-						<h3 class="text-left"><a href="https://thebusetaapp.herokuapp.com" target="_blank"><i class="fas fa-link"></i> Live Demo</a></h3>
-						<h3 class="text-left"><a href="https://github.com/T31K/busApp" target="_blank"><i class="fas fa-link"></i> Github Repo </a></h3>
-						<br><br>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="project-wrapper">
+						<h3 class="text-center text-red">BetterSG</h3>
+							<img src="img/work/bsg_2.gif" class="img-fluid d-block mx-auto mt-5 gif" alt="">
+							<h5 class="text-left mt-5">Project Goal</h5>
 					</div>
 				</div>
 			</div>
-		</div>
-    </div>
+			<br><br>
+			</div>
 
-	<div id ="bellboy" class="content-section-b">
-		<h2 class="text-center custom-title-font">Bellboy</h2>
-		<h3 class="lead text-center">Full Stack App for reviews <br>and insider tricks of top hotels</h3>
-        <div class="container">
-		<div class="content-section-a">
-			<div class="container">
-					<div class="row">
+	</section>
+	<!-- Contact -->
+	<br><br><br>
+	<section id="contact">
+		<div class="container">
+			<div class="row">
 
-					<div class="col-lg-12 wow fadeInLeftBig"  data-animation-delay="200">
-						<h3 class=" text-left"><i class="fas fa-exclamation-circle"></i> Project Goal</h3>
-						<li class="custom-li">As a flight crew, I have travelled to countless countries and myriad of hotels. Even so, sometimes I've encountered hotels which I've not travelled to. This app serves as a tool to flight crews/frequent flyers/leisure travellers alike to get an insider view of hotel rooms, their quirks and how to get the most out of them during your stay, long or short.</li>
-						<br><br>
+			<div class="col-md-12  text-center wrap_title">
+				<h2 class="custom-title-font contact">Contact Me!</h2>
+				<span class="text-center underline mb-5">__________________</span>
+			</div>
 
-						<h3 class="text-left"><i class="fas fa-layer-group"></i> Technologies Used</h3>
-						<li>JavaScript</li>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>Node.js</li>
-						<li>Express.js</li>
-						<li>MongoDB Atlas</li>
-						<li>Passport.js</li>
-						<li>Bootstrap 4</li>
-						<li>Git</li>
-						<li>Heroku</li>
-						<br><br>
+			<div class="col-md-12">
+				<form role="form" action="https://formspree.io/f/mleodkqy" method="post" class="form" >
+						<div class="form-group">
+							<label for="InputEmail">Your Email</label>
+							<div class="input-group">
+								<input type="text" class="form-control" id="InputEmail" name="_replyto" placeholder="Enter Email" required  >
+								<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+							</div>
+						</div>
 
-						<h3 class="text-left"><i class="fas fa-trophy"></i> Project Achievements</h3>
-						<li>Set up backend server with Express/Node to communicate with DB</li>
-						<li>Incorporated MongoDB and Mongoose to CRUD data</li>
-						<li>Implemented user sign up and authentication using Passport.js</li>
-						<li>Designed interactive UI with EJS and styled with Bootstrap </li>
+						<div class="form-group">
+							<label for="message">Message</label>
+								<div class="input-group">
+									<textarea name="message" id="InputMessage" class="form-control" rows="10" cols="80" required></textarea>
+									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+								</div>
 
-						<br><br>
+							<input type="submit" name="submit" id="submit" value="Submit" class="btn btn-work btn-red bg-special mx-auto">
+
+						</div>
+
+				</form>
+			</div>
 
 
-						<h3 class="text-left"><a href="https://bellboy.herokuapp.com" target="_blank"><i class="fas fa-link"></i> Live Demo</a></h3>
-						<h3 class="text-left"><a href="https://github.com/T31K/bellboy" target="_blank"><i class="fas fa-link"></i> Github Repo </a></h3>
-
-					</div>
-				</div>
 			</div>
 		</div>
-	</div>
-	</div>
-
-	<div id ="clemantee" class="content-section-b">
-		<h2 class="text-center custom-title-font">Clemantee <br> Music</h2>
-		<h3 class="lead text-center">Music Company Landing Page</h3>
-        <div class="container">
-		<div class="content-section-a">
-			<div class="container">
-					<div class="row">
-
-					<div class="col-lg-12 wow fadeInLeftBig"  data-animation-delay="200">
-						<h3 class=" text-left"><i class="fas fa-exclamation-circle"></i> Project Goal</h3>
-						<li class="custom-li">Clemantee Music is Music Learning Company of a friend of mine. As it is a fairly small company, the client did not want spend too much on it.
-							The webpage was static and did not need any complex backend server, so I recommended using Github Pages for free hosting and a cheap domain yearly fee.
-							The client also needed a lightweight, customizable and quick prototype. Therefore, I customized this plan to tailor the client's need. </li>
-						<br><br>
-
-						<h3 class="text-left"><i class="fas fa-layer-group"></i> Technologies Used</h3>
-						<li>JavaScript</li>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>Bootstrap 4</li>
-						<li>Git</li>
-						<li>Github Pages</li>
-						<li>jQuery</li>
-						<li>SlickJS</li>
-						<li>AOSjs</li>
-						<br><br>
-
-						<h3 class="text-left"><i class="fas fa-trophy"></i> Project Achievements</h3>
-						<li>Prototyped working site within 2 days of development</li>
-						<li>Deployed using Github pages for easy update & free hosting</li>
-						<li>Set up custom DNS to match to client's custom domain in Namecheap</li>
-						<li>Designed custom SVGs for website to display crisp graphics </li>
-						<li>Designed custom preloader for website loading with GIF animations </li>
-
-						<br><br>
-
-
-						<h3 class="text-left"><a href="https://clemanteemusic.com" target="_blank"><i class="fas fa-link"></i> Live Demo</a></h3>
-						<h3 class="text-left"><a href="https://github.com/T31K/ClemanteeMusic" target="_blank"><i class="fas fa-link"></i> Github Repo </a></h3>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
-
-
+	</section>
 
 	<footer>
 		<div class="container">
@@ -219,7 +140,6 @@
 								<a href="https://linkedin.com/in/teikmunwong" class="text-center"><i class="fa fa-linkedin-square fa-size"></i></a>
 								<a href="https://github.com/T31K"><i class="fa fa-github fa-size"> </i></a>
 								<a href="mailto:t31kmunwong@gmail.com"><i class="fa fa-envelope fa-size"> </i></a>
-								<p class="custom-p-font" id="navi-links"><a href="/" class="navi-text">HOME</a><a href="/#about" class="navi-text">ABOUT</a><a href="/#work" class="navi-text">WORK</a><a href="/#contact" class="navi-text">CONTACT</a></p>
 							</li>
 							<br>
 						</div>
@@ -228,19 +148,25 @@
 			</div>
 	</footer>
 
+
     <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
+	<script src="js/jquery-1.10.2.js"></script>
+	<script src="js/bootstrap.js"></script>
 	<script src="js/owl.carousel.js"></script>
 	<script src="js/script.js"></script>
-	<script src="js/stickUp.min.js"></script>
-	<script src="js/stickUpConfig.js"></script>
-	<script çsrc="js/jquery.corner.js"></script>
+	<script src="js/jquery.corner.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/jquery.corner.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/wowInit.js"></script>
 	<script src="js/classie.js"></script>
-	<script src="js/uiMorphingButton_inflow.js"></script>
 	<script src="js/jquery.magnific-popup.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="js/work.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

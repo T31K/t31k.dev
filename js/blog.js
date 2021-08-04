@@ -17,17 +17,13 @@ function addWindow (index) {
               <h3 class="data-title">4 Tips To Improve Productivity</h3>
               <h5 class="description">Hello world, my name is Tim</h5>
               <a class="link" href="hello" target="_blank">Read More</a>
-
             </div>
             <div class="tags">
-
-              <div>
-                <span id="tag_${index}0" tooltip-flow='top'>⚛️</span>
-                <span id="tag_${index}1" tooltip-flow='top'>💻</span>
-                <span id="tag_${index}2" tooltip-flow='top'>🧘🏻‍♂️</span>
-                <span id="tag_${index}3" tooltip-flow='top'>🖥</span>
-                <span id="tag_${index}4" tooltip-flow='top'>🎮</span>
-              </div>
+              <span id="tag_${index}0" tooltip-flow='top'>⚛️</span>
+              <span id="tag_${index}1" tooltip-flow='top'>💻</span>
+              <span id="tag_${index}2" tooltip-flow='top'>🧘🏻‍♂️</span>
+              <span id="tag_${index}3" tooltip-flow='top'>🖥</span>
+              <span id="tag_${index}4" tooltip-flow='top'>🎮</span>
             </div>
           </div>
   `
@@ -128,7 +124,7 @@ if (response.status == 'ok') {
     for (let i = 0; i < 5; i++) {
       let final_categories = changeTags(categories[i])
       $(`#tag_${index}${i}`).text(final_categories)
-      $(`#tag_${index}${i}`).attr('tooltip', categories[i])
+      $(`#tag_${index}${i}`).attr('tooltip', `${categories[i][0].toUpperCase()+categories[i].slice(1).replace('-',' ')}`)
     }
 
     // Clean up & Append Link

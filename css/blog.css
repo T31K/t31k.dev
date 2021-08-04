@@ -60,7 +60,6 @@ div.top-menu div {
 
 
  span {
-
    margin-left: 6px;
  }
 
@@ -194,11 +193,6 @@ div.tags span:nth-child(5) {
   }
 }
 
-/*!
- * Tooltip v2.0.0
- * Copyright 2021 The mqpvnn Authors
- * Contact me (https://fb.me/mqp99)
- */
 [tooltip=""]::before,
 [tooltip=""]::after {
   opacity: 0 !important;
@@ -303,82 +297,3 @@ div.tags span:nth-child(5) {
   transform: translateY(-50%);
 }
 
-
-.main-inner {
-  width: 50%;
-  min-width: 480px;
-}
-
-.main-inner-title {
-  margin: 0.5rem 0;
-  font-size: 22px;
-  white-space: pre-wrap;
-  font-weight: bold;
-}
-
-.main-inner .inner-code {
-  margin: 0.5rem 0 1rem 0;
-  width: 100%;
-  overflow: hidden;
-}
-
-.main-inner .inner-code:hover {
-  overflow: auto hidden;
-}
-
-.main-inner .inner-code:hover::-webkit-scrollbar {
-  height: 10px;
-}
-
-.main-inner .inner-code::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.main-inner .inner-code::-webkit-scrollbar-thumb {
-  background: #bbb;
-  border-radius: 1rem;
-}
-
-.main-inner .inner-code::-webkit-scrollbar-thumb:hover {
-  background: #999;
-}
-
-.main-inner .inner-code pre {
-  margin: 0;
-  color: #999;
-}
-
-.main-inner .inner-code pre .code-tag {
-  color: #2f6f9f;
-}
-
-.main-inner .inner-code pre .code-attr {
-  color: #335fff;
-}
-
-.main-inner .inner-code pre .code-value {
-  color: #d73038;
-}
-
-.main-inner .inner-code pre .code-str {
-  color: #222;
-}
-
-.main-inner button {
-  cursor: default;
-  text-align: center;
-  padding: 0.5rem;
-  margin: 5px 0;
-  margin-right: 5px;
-  font-size: 15px;
-  background: #f8f8f8;
-  border: 1px solid #eee;
-}
-
-@media screen and (max-width: 600px) {
-  .main-inner {
-    padding: 1rem;
-    width: 100%;
-    min-width: 100%;
-  }
-}
