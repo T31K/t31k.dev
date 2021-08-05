@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 225 150" style="enable-background:new 0 0 225 150;" xml:space="preserve">
 <style type="text/css">
@@ -11,11 +11,9 @@
 	.st5{opacity:5.000000e-02;enable-background:new    ;}
 	.st6{fill:#794C27;}
 	.st7{fill:#5E3921;}
-	.st8{fill:#FFFFFF;}
-	.st9{font-family:'Courier';}
-	.st10{font-size:2.4464px;}
-	.st11{font-size:1.8px;}
-	.st12{fill:#3E3E42;stroke:#D2D2D6;stroke-width:0.7825;stroke-miterlimit:10;}
+	.st8{fill:#3E3E42;stroke:#D2D2D6;stroke-width:0.7825;stroke-miterlimit:10;}
+	.st9{stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#FFFFFF;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
 <g id="Layer_1_1_">
 	<g>
@@ -170,7 +168,6 @@
 			</g>
 		</g>
 	</g>
-	<text transform="matrix(1 0 0 1 177.1588 71.0168)"><tspan x="0" y="0" class="st8 st9 st10">&gt;_</tspan><tspan x="0" y="2.2" class="st8 st9 st11">while (! (succeed=try() ))</tspan></text>
 </g>
 <g id="Layer_5">
 	<g>
@@ -189,7 +186,10 @@
 	</g>
 </g>
 <g id="Layer_3">
-	<path class="st12" d="M53.4,54.2H36.5c-0.9,0-1.6-0.7-1.6-1.7V27.7c0-0.9,0.7-1.7,1.6-1.7h16.9c0.9,0,1.6,0.7,1.6,1.7v24.9
+	<path class="st8" d="M53.4,54.2H36.5c-0.9,0-1.6-0.7-1.6-1.7V27.7c0-0.9,0.7-1.7,1.6-1.7h16.9c0.9,0,1.6,0.7,1.6,1.7v24.9
 		C55,53.4,54.3,54.2,53.4,54.2z"/>
 </g>
+<path class="st9" d="M184.3,69.5"/>
+<polyline class="st10" points="178.7,70.3 180.8,71.5 178.7,72.6 "/>
+<line class="st10" x1="181.2" y1="72.7" x2="183.7" y2="72.7"/>
 </svg>
