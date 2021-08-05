@@ -168,12 +168,12 @@ h3.title-alt {
 }
 
 .btn-work,  .btn-work:not(:disabled):not(.disabled).active, .btn-work:not(:disabled):not(.disabled):active {
-    background: #E8505B;
+    background: #FF5B67;
     box-shadow: 0 11px 36px 0 rgba(70,89,138,.25);
 }
 
 .btn-red,  .btn-red:not(:disabled):not(.disabled).active, .btn-red:not(:disabled):not(.disabled):active {
-    background: #E8505B;
+    background: #FF5B67;
     box-shadow: 0 11px 36px 0 rgba(70,89,138,.25);
     color: #fff;
 }
@@ -348,7 +348,7 @@ h3.title-alt {
 }
 
 .bg-red{
-    background: #E8505B;
+    background: #FF5B67;
 }
 
 .bg-pink{

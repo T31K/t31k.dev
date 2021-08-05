@@ -44,7 +44,7 @@ body {
 }
 
 .bg-red {
-  background: #E8505B;
+  background: #FF5B67;
 }
 
 .bg-pink {
@@ -112,7 +112,7 @@ body {
       border-radius: 20px;
   }
 
-  .custom-container {
+.custom-container {
     padding-left: 10px;
     padding-right: 10px;
   }
