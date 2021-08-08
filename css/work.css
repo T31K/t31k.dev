@@ -90,9 +90,6 @@ body {
   height: auto;
 }
 
-
-
-
 @media (min-width: 320px) {
   .work-border {
     border: 5px solid #AAAAAA;
