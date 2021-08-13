@@ -12,9 +12,9 @@
 
 
 .work-wrapper-r {
-    background: #ee9ca7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ea6871;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffdde1, #ea6871);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffdde1, #ea6871); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 0 15px 15px 0;
     box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
     padding: 25px 45px;
@@ -33,9 +33,9 @@
 }
 
 .work-wrapper-l-alt {
-    background: #ee9ca7;
-    background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7);
-    background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
+    background: #ea6871;
+    background: -webkit-linear-gradient(to bottom, #ffdde1, #ea6871);
+    background: linear-gradient(to bottom, #ffdde1, #ea6871);
     border-radius: 15px 0 0 15px;
     box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
     padding: 25px 45px;
@@ -82,9 +82,9 @@ img.work-img  {
 
 
 .work-image {
-    background: #ee9ca7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ea6871;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffdde1, #ea6871);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffdde1, #ea6871); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 0 12px 12px 0;
 }
 
@@ -168,12 +168,12 @@ h3.title-alt {
 }
 
 .btn-work,  .btn-work:not(:disabled):not(.disabled).active, .btn-work:not(:disabled):not(.disabled):active {
-    background: #FF5B67;
+    background: #ea6871;
     box-shadow: 0 11px 36px 0 rgba(70,89,138,.25);
 }
 
 .btn-red,  .btn-red:not(:disabled):not(.disabled).active, .btn-red:not(:disabled):not(.disabled):active {
-    background: #FF5B67;
+    background: #ea6871;
     box-shadow: 0 11px 36px 0 rgba(70,89,138,.25);
     color: #fff;
 }
@@ -240,9 +240,9 @@ h3.title-alt {
     }
 
     .work-wrapper-r {
-        background: #ee9ca7;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #ea6871;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ffdde1, #ea6871);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ffdde1, #ea6871); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         border-radius: 0 0 15px 15px;
         box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
         padding: 25px 45px;
@@ -258,9 +258,9 @@ h3.title-alt {
     }
 
     .work-wrapper-l-alt {
-        background: #ee9ca7;
-        background: -webkit-linear-gradient(to bottom, #ffdde1, #ee9ca7);
-        background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
+        background: #ea6871;
+        background: -webkit-linear-gradient(to bottom, #ffdde1, #ea6871);
+        background: linear-gradient(to bottom, #ffdde1, #ea6871);
         border-radius: 15px 15px 0 0;
         box-shadow: 0 70px 140px 0 rgba(130,136,171,.2);
         padding: 25px 45px;
@@ -348,7 +348,7 @@ h3.title-alt {
 }
 
 .bg-red{
-    background: #FF5B67;
+    background: #ea6871;
 }
 
 .bg-pink{

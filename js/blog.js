@@ -75,6 +75,7 @@ function changeTags(tag) {
     case "sports"                   : return emojiUnicode("🏀")
     case "food"                     : return emojiUnicode("🍔")
     case "art"                      : return emojiUnicode("🖌")
+    default                         : return emojiUnicode("🌈")
   }
 }
 
