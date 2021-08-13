@@ -125,7 +125,7 @@ if (response.status == 'ok') {
     for (let i = 0; i < 5; i++) {
       let final_categories = changeTags(categories[i])
       $(`#tag_${index}${i}`).text(final_categories)
-      $(`#tag_${index}${i}`).attr('tooltip', `${categories[i][0].toUpperCase()+categories[i].slice(1).replace('-',' ')}`)
+      $(`#tag_${index}${i}`).attr('tooltip', `${categories[i][0].toUpperCase()+categories[i].slice(1).replaceAll('-',' ')}`)
     }
 
     // Clean up & Append Link
