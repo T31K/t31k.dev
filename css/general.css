@@ -15,13 +15,6 @@ body {
 }
 
 
-
-::selection {
-	background: #81BCDA; /* WebKit/Blink Browsers */
-  }
-  ::-moz-selection {
-	background: #ffb7b7; /* Gecko Browsers */
-  }
 div#hero{
 	height: 100vh;
 }

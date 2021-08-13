@@ -23,6 +23,7 @@ $(document).ready(function() {
 		})
 		wow.init()
 
+		$('img').on('dragstart', function(event) { event.preventDefault(); });
 
 		// OwlCarousel N1
 

@@ -214,6 +214,10 @@ body {
             box-sizing: border-box;
 }
 
+::selection {
+  background: #81BCDA;
+}
+
 a {
   color: #34495e;
   text-decoration: none;
