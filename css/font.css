@@ -8,6 +8,15 @@
     font-family: 'Montserrat', serif !important;
 }
 
+.custom-p-font a {
+    color: #81Bcda;
+}
+
+.custom-p-font a:hover {
+    color: #81BCDA;
+    text-decoration: underline;
+}
+
 .custom-subheading-font{
     font-family: 'Playfair Display', serif !important;
     font-weight: 500;
