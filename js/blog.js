@@ -4,9 +4,9 @@ function addWindow (index) {
   return `<div class="blog-window" id="${index}">
             <div class="top-menu">
               <div>
-                <span class="red"></span>
-                <span class="orange"></span>
-                <span class="green"></span>
+                <span class="red" tooltip-flow="top" tooltip="Nope, it doesn't work :P"></span>
+                <span class="orange" ></span>
+                <span class="green" ></span>
               </div>
               <div>
                 <span class="date">2017 January 30th</span>
