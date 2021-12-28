@@ -379,3 +379,19 @@ li.social a{
 h1#social{
     margin-bottom: 15px;
 }
+
+.bg-rainbow {
+    animation: rainbow 5s infinite alternate;
+    background-image: radial-gradient( 
+        circle farthest-corner at 0% 20%,  
+        rgba(168, 141, 234, 1) 0%, 
+        rgba(129, 188, 218, 1) 21.9%, 
+        rgba(155, 208, 165, 1) 35.6%, 
+        rgba(243,250,189,1) 53.9%, 
+        rgba(254, 222, 154, 1) 66.8%, 
+        rgba(255, 192, 124, 1) 75%, 
+        rgb(234, 104, 113) 89.9% );
+}
+
+
+
