@@ -166,35 +166,35 @@ h3.title-alt {
 
 .btn-work,  .btn-work:not(:disabled):not(.disabled).active, .btn-work:not(:disabled):not(.disabled):active {
     background: #ea6871;
-    box-shadow: 0 11px 36px 0 rgba(70,89,138,.25);
+    /* box-shadow: 0 11px 36px 0 rgba(70,89,138,.25); */
 }
 
 .btn-red,  .btn-red:not(:disabled):not(.disabled).active, .btn-red:not(:disabled):not(.disabled):active {
     background: #ea6871;
-    box-shadow: 0 11px 36px 0 rgba(70,89,138,.25);
+    /* box-shadow: 0 11px 36px 0 rgba(70,89,138,.25); */
     color: #fff;
 }
 
 .btn-yellow,  .btn-yellow:not(:disabled):not(.disabled).active, .btn-yellow:not(:disabled):not(.disabled):active {
     background: #FEDE9A;
-    box-shadow: 0 11px 36px 0 rgba(70,89,138,.25);
+    /* box-shadow: 0 11px 36px 0 rgba(70,89,138,.25); */
     color: #fff;
 }
 .btn-blue,  .btn-blue:not(:disabled):not(.disabled).active, .btn-blue:not(:disabled):not(.disabled):active {
     background: #81bcda;
-    box-shadow: 0 11px 36px 0 rgba(70,89,138,.25);
+    /* box-shadow: 0 11px 36px 0 rgba(70,89,138,.25); */
     color: #fff;
 }
 
 .btn-purple,  .btn-purple:not(:disabled):not(.disabled).active, .btn-purple:not(:disabled):not(.disabled):active {
     background: #A88DEA;
-    box-shadow: 0 11px 36px 0 rgba(70,89,138,.25);
+    /* box-shadow: 0 11px 36px 0 rgba(70,89,138,.25); */
     color: #fff;
 }
 
 .btn-orange{
     background: #ffc58c;  /* fallback for old browsers */
-    box-shadow: 0 11px 36px 0 rgba(70,89,138,.25);
+    /* box-shadow: 0 11px 36px 0 rgba(70,89,138,.25); */
     color: #fff;
 }
 .btn:not(:disabled):not(.disabled) {
@@ -380,18 +380,23 @@ h1#social{
     margin-bottom: 15px;
 }
 
-.bg-rainbow {
-    animation: rainbow 5s infinite alternate;
-    background-image: radial-gradient( 
-        circle farthest-corner at 0% 20%,  
-        rgba(168, 141, 234, 1) 0%, 
-        rgba(129, 188, 218, 1) 21.9%, 
-        rgba(155, 208, 165, 1) 35.6%, 
-        rgba(243,250,189,1) 53.9%, 
-        rgba(254, 222, 154, 1) 66.8%, 
-        rgba(255, 192, 124, 1) 75%, 
-        rgb(234, 104, 113) 89.9% );
+
+.btn-rainbow {
+    animation: rainbow 10s infinite;
 }
+.bg-rainbow {
+    animation: rainbow 10s infinite;
+  }
+  
+  @keyframes rainbow {
+    0% {background: rgb(234, 104, 113) ;}
+    15%{background:rgba(255, 192, 124, 1);}
+    30%{background:rgba(254, 222, 154, 1);}
+    45%{background:rgba(243,250,189,1);}
+    60% {background: rgba(155, 208, 165, 1);}
+    75% {background: rgba(129, 188, 218, 1);}
+    90% {background: rgba(168, 141, 234, 1);}
+    100% {background: rgb(234, 104, 113);}
+  }
 
-
-
+  
