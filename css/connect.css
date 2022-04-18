@@ -27,6 +27,13 @@ div.gh {
     border-radius: 35px;
     margin: 8px auto;
 }
+div.pf {
+    background: #fffd9e;
+    width: 200px;
+    padding: 5px 20px;
+    border-radius: 35px;
+    margin: 8px auto; 
+}
 div.bmc {
     background: #ffc07c;
     width: 200px;
