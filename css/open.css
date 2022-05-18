@@ -1,0 +1,72 @@
+section#open {
+  padding-top: 100px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  text-align: center;
+  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span.round {
+  background-color: #222;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  margin-left: 5px;
+  float: left;
+  display: inline-block;
+}
+
+.card-top {
+  height: 20px;
+  background: #ddd;
+  padding: 15px 10px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.card {
+  background: #ddd;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding: 10px;
+}
+
+.card {
+  padding-top: 20px;
+  font-weight:  700;
+}
+
+.card h2 {
+  color: black !important;
+  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-bottom: 30px;
+  font-size: 5rem;
+}
+
+
+.blog-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 15%;
+}
+
+@media (min-width: 1400px) {
+  .blog-container {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10%;
+  }
+}
+
+@media (min-width: 2000px) {
+  .blog-container {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 5%;
+  }
+}
