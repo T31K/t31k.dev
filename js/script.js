@@ -6,11 +6,6 @@ $(window).on('load', function() {
 })
 
 $(document).ready(function() {
-		//animated logo
-		$(".navbar-brand").hover(function () {
-			$(this).toggleClass("animated shake")
-		})
-
 		//animated scroll_arrow
 		$(".img_scroll").hover(function () {
 			$(this).toggleClass("animated infinite bounce")
@@ -28,7 +23,7 @@ $(document).ready(function() {
 		// OwlCarousel N1
 
 
-
+		feather.replace()
 
 
 })

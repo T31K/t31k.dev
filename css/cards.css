@@ -46,11 +46,10 @@
 
 p.work-wrap-text {
     margin-top: 10px;
-    font-family: Montserrat,sans-serif;
+    margin-left: 5px;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
-    font-weight: 500;
-    line-height: 1.78;
-    letter-spacing: .44px;
+    font-weight: 600;
     color: #7c82a2;
     text-align: left;
 }
@@ -58,11 +57,10 @@ p.work-wrap-text {
 p.work-wrap-text-alt {
     text-align: right;
     margin-top: 10px;
-    font-family: Montserrat,sans-serif;
+    margin-right: 5px;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
-    font-weight: 500;
-    line-height: 1.78;
-    letter-spacing: .44px;
+    font-weight: 600;
     color: #7c82a2;
 }
 
@@ -89,31 +87,23 @@ img.work-img  {
 
 /* ============== FONTS ================ */
 h3.title {
-    font-family: Playfair Display,serif;
-    font-weight: 600;
-    line-height: 1.33;
-    letter-spacing: .8px;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
     color: #1b2025;
     font-size: 40px;
-    letter-spacing: 1.25px;
     text-align: left;
 }
 
 h3.title-alt {
-    font-family: Playfair Display,serif;
-    font-weight: 600;
-    line-height: 1.33;
-    letter-spacing: .8px;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
     color: #1b2025;
     font-size: 40px;
-    letter-spacing: 1.25px;
     text-align: right;
 }
 
 .work-description p {
     margin-top: 20px;
-    font-family: Montserrat,sans-serif;
-    font-size: 14px;
     font-weight: 500;
     line-height: 1.78;
     letter-spacing: .44px;
@@ -268,49 +258,38 @@ h3.title-alt {
     }
 
     h3.title {
-        font-family: Playfair Display,serif;
-        font-weight: 600;
-        line-height: 1.33;
-        letter-spacing: .8px;
+        font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: 700;
         color: #1b2025;
         font-size: 40px;
-        letter-spacing: 1.25px;
         text-align: center;
     }
 
 
     h3.title-alt {
-        font-family: Playfair Display,serif;
-        font-weight: 600;
-        line-height: 1.33;
-        letter-spacing: .8px;
+        font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: 700;
         color: #1b2025;
         font-size: 40px;
-        letter-spacing: 1.25px;
         text-align: center;
     }
     p.work-wrap-text-alt {
         text-align: center;
         margin-top: 10px;
-        font-family: Montserrat,sans-serif;
+        font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 14px;
-        font-weight: 500;
-        line-height: 1.78;
-        letter-spacing: .44px;
+        font-weight: 600;
         color: #7c82a2;
     }
 
     p.work-wrap-text {
         text-align: center;
         margin-top: 10px;
-        font-family: Montserrat, sans-serif;
+        font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 14px;
-        font-weight: 500;
-        line-height: 1.78;
-        letter-spacing: .44px;
+        font-weight: 600;
         color: #7c82a2;
     }
-
 
     img.work-img  {
         position: relative;
@@ -382,13 +361,13 @@ h1#social{
 
 
 .btn-rainbow {
-    animation: rainbow 10s infinite;
+    animation: bg-rainbow 10s infinite;
 }
 .bg-rainbow {
-    animation: rainbow 10s infinite;
+    animation: bg-rainbow 10s infinite;
   }
   
-  @keyframes rainbow {
+  @keyframes bg-rainbow {
     0% {background: rgb(234, 104, 113) ;}
     15%{background:rgba(255, 192, 124, 1);}
     30%{background:rgba(254, 222, 154, 1);}

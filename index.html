@@ -21,6 +21,7 @@
 	<link href="css/nav.css" rel="stylesheet">
 
 	<link href="css/custom.css" rel="stylesheet">
+	<link href="css/blog.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
 	<link href="css/animate.css" rel="stylesheet">
 
@@ -33,7 +34,7 @@
 
 </head>
 
-<body id="home">
+<body id="home" class="index">
 
 	<!-- Preloader -->
 	<div id="preloader">
@@ -56,96 +57,97 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand " href="/">T31K.</a>
+				<a class="navbar-brand " href="/">T31K</a>
 			</div>
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#home">HOME</a></li>
-					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#about">ABOUT</a></li>
-					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#work">WORK</a></li>
-					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="/blog">BLOG</a></li>
-					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#contact">CONTACT</a></li>
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Home</a></li>
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#about">About</a></li>
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#work">Work</a></li>
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#blog">Blog</a></li>
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#contact">Contact</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 
 	<section id="about">
-	<div class="content-section-b">
-		<div class="container">
-			<div class="row">
+		<br><br><br>
+			<div class="blog-container">
+				<div class="row">
+					<div class="col-md-12  text-center wrap_title">
+						<h2 class="custom-title-font">About Me</h2>
+					</div>
+				</div>
+				<div class="blog-window">
+					<div class="top-menu" style="background: #222;">
+						<div>
+							<span class="red"></span>
+							<span class="orange"></span>
+							<span class="green"></span>
+						</div>
+						<div>
+						</div>
+					</div>
+					<div class="inner" >
+						<p> Hi, Tim here. Ex flight crew, present day dev </p> 
+						<p> Full Stack but specialize on the frontend (as you can see :P)</p>
+						<p> Love tech, computers, robots, blockchain and books</p>
+						<p> Avid writer on Medium for a publication called <a href="https://javascript.plainenglish.io/">JavaScript in Plain English</a </a></p>
+						<p> Firm believer of Atomic Habits, trusting that consistent hard work & good habits can develop into any formidable skill anywhere </p>
+						<a class='link' href="/about">Get to know me!</a>
+					</div>
+				</div>
+					<div class="tags"></div>
+			</div>
+	</section>
+	
+	<section id="tech_stack">
+		<div class="row">
+			<div class="container">
 				<div class="col-md-12  text-center wrap_title">
-					<h2 class="custom-title-font">About Me</h2>
-					<h4 class="custom-subtitle-font" >ex flight crew | present day dev</h4>
-					<span class="underline">__________________</span>
+					<h2 class="custom-title-font">My Tech Stack</h2>
+					<br><br>
 				</div>
+				<div class="col-lg-4 ml-lg-3 text-center">
+					<img src="img/icon/frontend.svg" class="icon-custom" alt="">
+						<h3 class="custom-subtitle-font">Frontend</h3>
+						<img src="img/icon/html.svg" class="smaller-icon-custom">
+						<img src="img/icon/css.svg" class="smaller-icon-custom">
+						<img src="img/icon/javascript.svg" class="smaller-icon-custom">
+						<img src="img/icon/react.svg" class="smaller-icon-custom">
+						<img src="img/icon/vue.svg" class="smaller-icon-custom">
+				</div>
+				<br><br>
+				<div class="col-lg-4  text-center">
+					<img src="img/icon/backend.svg" class="icon-custom " alt="">
+						<h3 class="custom-subtitle-font">Backend</h3>
+						<img src="img/icon/nodejs.svg" class="smaller-icon-custom">
+						<img src="img/icon/python.svg" class="smaller-icon-custom">
+						<img src="img/icon/ruby.svg" class="smaller-icon-custom">
+						<img src="img/icon/django.svg" class="smaller-icon-custom">
+						<img src="img/icon/graphql.svg" class="smaller-icon-custom">
+				</div>
+				<br><br>
+				<div class="col-lg-4  mr-lg-3  text-center">
+					<img src="img/icon/tools.svg" class="icon-custom" alt="">
+						<h3 class="custom-subtitle-font">Tools</h3>
+						<img src="img/icon/illustrator.svg" class="smaller-icon-custom">
+						<img src="img/icon/photoshop.svg" class="smaller-icon-custom">
+						<img src="img/icon/git.svg" class="smaller-icon-custom">
+						<img src="img/icon/boostrap.svg" class="smaller-icon-custom">
+				</div>
+				<br><br>
 			</div>
+		</div>
+	</section>
 
-			<div class="row text-center">
-				<div class="col-lg-12">
-					<div class="div-centered">
-						<div class="container">
-							<p>🚀⠀Hello. Tim here. Ex flight crew, present day dev </p> 
-							<p>🚀⠀Started as Frontend but moved to Full Stack</p>
-							<p>🚀⠀Love computers, robots, blockchain and books</p>
-							<p>🚀⠀Avid writer on Medium for a publication called <a href="https://javascript.plainenglish.io/">JavaScript in Plain English</a> & <a href="https://medium.com/geekculture">Geek Culture </a></p>
-							<p>🚀⠀Firm believer of Atomic Habits, trusting that consistent hard work & good habits can develop into any formidable skill anywhere </p>
-						</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-						<div class="col-md-12  text-center wrap_title">
-							<h2 class="custom-title-font">My Tech Stack</h2>
-							<p></p>
-							<span class="underline">________________________________</span>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="container">
-
-						<div class="col-lg-4 ml-lg-3 text-center">
-							<img src="img/icon/frontend.svg" class="icon-custom" alt="">
-								<h3 class="custom-subtitle-font">Frontend</h3>
-								<img src="img/icon/html.svg" class="smaller-icon-custom">
-								<img src="img/icon/css.svg" class="smaller-icon-custom">
-								<img src="img/icon/javascript.svg" class="smaller-icon-custom">
-								<img src="img/icon/react.svg" class="smaller-icon-custom">
-								<img src="img/icon/vue.svg" class="smaller-icon-custom">
-						</div>
-						<div class="col-lg-4  text-center">
-							<img src="img/icon/backend.svg" class="icon-custom " alt="">
-								<h3 class="custom-subtitle-font">Backend</h3>
-								<img src="img/icon/nodejs.svg" class="smaller-icon-custom">
-								<img src="img/icon/python.svg" class="smaller-icon-custom">
-								<img src="img/icon/ruby.svg" class="smaller-icon-custom">
-								<img src="img/icon/django.svg" class="smaller-icon-custom">
-								<img src="img/icon/graphql.svg" class="smaller-icon-custom">
-						</div>
-						<div class="col-lg-4  mr-lg-3  text-center">
-							<img src="img/icon/tools.svg" class="icon-custom" alt="">
-								<h3 class="custom-subtitle-font">Tools</h3>
-								<img src="img/icon/illustrator.svg" class="smaller-icon-custom">
-								<img src="img/icon/photoshop.svg" class="smaller-icon-custom">
-								<img src="img/icon/git.svg" class="smaller-icon-custom">
-								<img src="img/icon/boostrap.svg" class="smaller-icon-custom">
-						</div>
-
-					</div>
-
-				</div>
-			</section>
-
-			<section id="work">
+	<section id="work">
 				<br><br>
 				<div class="container">
 					<div class="container">
 						<div class="text-center ">
 							<h2 class="custom-title-font ">My Work</h2>
-							<span class="text-center underline mb-5">__________________</span>
 						</div>
 						<br><br>
 					<div class="row" style='display: none;'>
@@ -256,7 +258,7 @@
 						<div class="col-md-5 p-none">
 							<div class="work-wrapper-r-alt">
 								<div class="text-right text-custom-center">
-									<h3 class="title-alt ">ClemanteeMusic</h3>
+									<h3 class="title-alt ">Clemantee</h3>
 									<p class="work-wrap-text-alt">Music Company Landing Page</p>
 									<a href="/work#clemantee" class="btn btn-work btn-green text-right " target="_blank">Learn More</a>
 								</div>
@@ -269,7 +271,7 @@
 						<div class="col-md-1"></div>
 						<div class="col-md-5 p-none">
 							<div class="work-wrapper-l">
-									<h3 class="title">VeriFact.sg</h3>
+									<h3 class="title">VeriFact</h3>
 									<p class="work-wrap-text">Crowdsourced Fact-Check App</p>
 									<a href="/work#verifact" class="btn btn-red btn-blue" target="_blank">Learn More</a>
 							</div>
@@ -310,8 +312,7 @@
 			<div class="row">
 
 			<div class="col-md-12  text-center wrap_title">
-				<h2 class="custom-title-font contact">Contact Me!</h2>
-				<span class="text-center underline mb-5">__________________</span>
+				<h2 class="custom-title-font contact">Contact Me</h2>
 			</div>
 
 			<div class="col-md-12">

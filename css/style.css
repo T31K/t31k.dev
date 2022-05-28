@@ -326,12 +326,11 @@ p {
   margin-bottom: 30px;
   margin-top: 20px;
   font-size: 20px;
-  line-height: 1.46428571;
-  font-weight: 300;
+  font-weight: 600;
+  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 @media (min-width: 768px) {
   .lead {
-
   }
 }
 small,
@@ -1141,9 +1140,8 @@ input[type="search"] {
   -webkit-appearance: none !important;
 }
 label {
-  font-weight: normal;
   font-size: 15px;
-  line-height: 2.4;
+  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .form-control:-moz-placeholder {
   color: #b2bcc5;
@@ -1950,9 +1948,15 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   border-width: 0;
 }
 .navbar-brand {
+
+}
+
+a.navbar-brand {
+  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 24px;
-  line-height: 1.042;
-  font-weight: 700;
+  letter-spacing: -.3px;
+  font-weight: 600 !important;
+  margin-left: 5px !important;
 }
 .navbar-brand > [class*="fui-"] {
   font-size: 19px;
@@ -2005,7 +2009,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 }
 .navbar-nav > li > a {
   font-size: 16px;
-  line-height: 23px;
+  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
 }
 .navbar-nav .dropdown-toggle .caret {
@@ -2279,17 +2283,19 @@ select[multiple].navbar-form .btn {
   border-width: 2px;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #34495e;
+  color: #222;
+  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #1abc9c;
+  color: #81bcda;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #1abc9c;
+  color: #81bcda;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .disabled > a,
@@ -4671,6 +4677,33 @@ footer i:hover {
   margin-left: 20px;
 }
 
+
+
+body.index section#about div.inner p {
+  text-align: left;
+  color: #ffff;
+}
+
+body.index section#about div.inner a {
+  color: #3498db;
+}
+
+body.index section#about div.inner a.link {
+  width: 150px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media (max-width: 576px) {
+  body.index section#about {
+    height: auto;
+  }
+  
+  body.index section#about div.inner  {
+    height: 720px;
+  }
+}
 /* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
 		p{text-align: center;}

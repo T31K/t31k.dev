@@ -237,6 +237,10 @@ color: #ECEBEB;
 	font-weight: 400 !important;
 }
 
+a.navbar-brand:hover {
+	color: #81bcda !important;
+}
+
 .lead {
 	font-size: 16px;
 	font-weight: 400;
