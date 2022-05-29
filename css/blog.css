@@ -88,6 +88,14 @@ span.green {
   display: inline-block;
 }
 
+span.dark-mode {
+  background-color: #f4c025;
+  height: 20px;
+  width: 60px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
 span.date {
   text-align: right;
   font-style: italic;

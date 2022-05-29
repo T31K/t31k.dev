@@ -23,7 +23,6 @@ $(document).ready(function() {
 		// OwlCarousel N1
 
 
-		feather.replace()
 
 
 })

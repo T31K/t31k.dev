@@ -1,3 +1,5 @@
+feather.replace()
+
 $(document).ready( function() { 
     $('i.play').on('click', function(){
         if ($(this).attr('class').includes('pause')) {
